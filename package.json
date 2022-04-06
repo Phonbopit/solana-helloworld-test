@@ -1,0 +1,21 @@
+{
+  "name": "solana-helloworld",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Phonbopit/solana-helloworld.git",
+  "author": "Chai Phonbopit",
+  "license": "MIT",
+  "scripts": {
+    "hello": "ts-node scripts/hello-world.ts"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "1.0.1",
+    "ts-node": "10.7.0",
+    "typescript": "4.6.3"
+  },
+  "dependencies": {
+    "@solana/web3.js": "1.37.1",
+    "borsh": "0.7.0",
+    "buffer": "6.0.3"
+  }
+}
